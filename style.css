@@ -1,0 +1,28 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.services{
+    height: 200px;
+    width: auto;
+    background-color: #EC904C;
+    
+}
+
+/* ===========
+Section2
+============= */
+.section2{
+     background-color: #E9F7FF;
+     padding: 70px;
+}
+
+.innerdiv2{
+    margin-bottom: 60px;
+}
