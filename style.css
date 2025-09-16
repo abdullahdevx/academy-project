@@ -1,14 +1,18 @@
-*{
+body{
     font-family: "Inter", sans-serif;
 }
 
 .flex{
     display: flex;
     text-align: center;
+    justify-content: center;
     align-items: center;
 }
 
-.services{
+/* ===========
+Services_Page_Head
+============= */
+.service_page_head{
     height: 200px;
     width: auto;
     background-color: #EC904C;
@@ -16,13 +20,46 @@
 }
 
 /* ===========
-Section2
+Services_Page_Banner
 ============= */
-.section2{
+.service_page_banner{
      background-color: #E9F7FF;
      padding: 70px;
 }
 
-.innerdiv2{
+.spage_inner{
     margin-bottom: 60px;
+}
+
+.spage_inner_col{
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+}
+
+.span{
+    height: 40px;
+    width: 40px;
+    background-color: #EC904C;
+    color: black;
+    border-radius: 15px;
+}
+
+/* <!-- ===================
+services_Page_Section3
+==================== --> */
+.icon6{
+    background-color: #00A19E;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.inner6{
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px  #babebe60;
+
 }
