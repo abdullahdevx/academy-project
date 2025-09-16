@@ -19,12 +19,61 @@ Services_Page_Head
     
 }
 
+
+/* <!-- ===================
+services_Page_Section3
+==================== --> */
+
+.spage_section3{
+         margin-top: 50px;
+   
+}
+
+
+.sp_icon_sect3{
+    margin-left: 10px;
+}
+.sp_inner_section3{
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px  #babebe60;
+    width: auto;
+    height: 320px;
+}
+
+.sp_btn_col1{
+    background-color: #EC904C;
+    height: 45px;
+    width: 45px;
+    border-radius: 40px;
+}
+
+
+.sp_poins_icon{
+    color: #EC904C;
+}
+
+.sp_section3_col2{
+     font-family: "Inter", sans-serif;
+     margin-top: 55px;
+     padding: 50px;
+}
+.sp_brn_col2{
+    background-color: #EC904C;
+    color: #E9F7FF;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
 /* ===========
 Services_Page_Banner
 ============= */
 .service_page_banner{
      background-color: #E9F7FF;
      padding: 70px;
+    margin-top: 60px;
 }
 
 .spage_inner{
@@ -43,23 +92,4 @@ Services_Page_Banner
     background-color: #EC904C;
     color: black;
     border-radius: 15px;
-}
-
-/* <!-- ===================
-services_Page_Section3
-==================== --> */
-.icon6{
-    background-color: #00A19E;
-    width: 70px;
-    height: 70px;
-    border-radius: 15px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.inner6{
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px  #babebe60;
-
 }
