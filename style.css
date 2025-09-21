@@ -9,6 +9,7 @@ body{
     align-items: center;
 }
 
+
 /* ===========
 Services_Page_Head
 ============= */
@@ -107,7 +108,7 @@ Tabs :
 }
 
 .inovation{
-    height: 100vh; 
+    height: 60vh; 
 }
 
 .click{
@@ -116,25 +117,6 @@ Tabs :
     box-shadow: 0px 0px 15px  #787c7c86;
     padding: 20px;
 
-}
-.icon{
-    background-color: #00A19E;
-    width: 70px;
-    height: 70px;
-    border-radius: 15px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.check1{
-    gap: 10px;
-}
-
-.check2{
-     gap: 10px;
 }
 
 .boxx{
@@ -152,4 +134,22 @@ Tabs :
     border-radius: 30px;
     color: white;
     font-weight: 900;
+}
+
+.sp_tabs_icon{
+    color: #EC904C;
+}
+
+/* ===========
+Last Section :
+============= */
+
+.sp_lastsec_btn{
+    height: 50px;
+    width: 150px;
+    background-color: #EC904C;
+    color: #E9F7FF;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 600;
 }
