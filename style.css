@@ -2,7 +2,7 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-.flex{
+.sp_flex{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -27,7 +27,6 @@ services_Page_Section3
 
 .spage_section3{
          margin-top: 50px;
-   
 }
 
 
@@ -38,7 +37,7 @@ services_Page_Section3
     border-radius: 15px;
     box-shadow: 0px 0px 15px  #babebe60;
     width: auto;
-    height: auto;
+    height: 350px;
     margin-bottom: 10px;
 }
 
@@ -69,6 +68,14 @@ services_Page_Section3
     margin-top: 15px;
 }
 
+.sp_btn_col2{
+    background-color:  #EC904C;
+    border: none;
+     height: 50px;
+    width: 150px;
+    border-radius: 30px;
+}
+
 /* ===========
 Services_Page_Banner
 ============= */
@@ -88,7 +95,7 @@ Services_Page_Banner
     width: 300px;
 }
 
-.span{
+.sp_span{
     height: 40px;
     width: 40px;
     background-color: #EC904C;
@@ -108,7 +115,7 @@ Tabs :
 }
 
 .inovation{
-    height: 60vh; 
+    height: 50vh; 
 }
 
 .click{
@@ -153,3 +160,10 @@ Last Section :
     border: 1px solid black;
     font-weight: 600;
 }
+
+
+#myTab {
+    flex-wrap: unset !important;
+    overflow-y: hidden;
+}
+
